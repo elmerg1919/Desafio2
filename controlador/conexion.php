@@ -10,7 +10,7 @@ class Conection{
         $user = "root";
         $pass = "";
         $host = "localhost";
-        $db = "eventos";
+        $db = "eventualidades";
         
         try{
             $conectar = new PDO("mysql:host=$host;dbname=$db",$user,$pass);
